@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container" style="padding-top: 8px;">
+        <div class="form custom-padding">
+            <div style="display: flex; align-items: center; justify-content: space-between;margin-top:1px;">
+                <div style="color: gray;">
+                    Mag-sign In
+                </div>
+                <div class="" style="color: gray; cursor: pointer;">
+                    <ion-icon name="close-outline" style="font-size: 1.4rem; line-height: 2rem;"></ion-icon>
+                </div>
+            </div>
+            <div style="margin-top: 1rem;">
+                <h1 class="title">
+                    Magrehistro
+                </h1>
+            </div>
+            <div style="margin-top: 2rem; padding-left: 5px; padding-right: 5px; padding-bottom:16px;">
+                <form id="registerForm">
+                    <div class="space" style="position: relative;">
+                        <label for="phone" style="color: gray; position: absolute; font-size: 0.75rem; line-height: 1rem; left: 14px; top: 6px;">Numero ng Telepono</label>
+                        <input style="width: 100%; border: 2px solid rgb(0,105,53); background-color:rgb(1,4,8); height:50px; color: gray; padding-top: 20px; padding-left: 14px; padding-right: 100px; outline: 2px solid transparent; outline-offset: 2px; border-radius: 4px;" type="text" name="phone" id="phone">
+                    </div>
+                    <div class="space" style="position: relative;">
+                        <label for="password" style="color: gray; position: absolute; font-size: 0.75rem; line-height: 1rem; left: 14px; top: 6px;">Password</label>
+                        <input style="width: 100%; border: 2px solid rgb(0,105,53); background-color:rgb(1,4,8); height:50px; color: gray; padding-top: 20px; padding-left: 14px; padding-right: 14px; outline: 2px solid transparent; outline-offset: 2px; border-radius: 4px;" type="password" name="password" id="password">
+                    </div>
+                    <div class="space" style="position: relative;">
+                        <label for="confirmPassword" style="color: gray; position: absolute; font-size: 0.75rem; line-height: 1rem; left: 14px; top: 6px;">I-enter muli ang password</label>
+                        <input style="width: 100%; border: 2px solid rgb(0,105,53); background-color:rgb(1,4,8); height:50px; color: gray; padding-top: 20px; padding-left: 14px; padding-right: 14px; outline: 2px solid transparent; outline-offset: 2px; border-radius: 4px;" type="password" name="confirmPassword" id="confirmPassword">
+                    </div>
+                    <div>
+                        <button type="submit" style="text-align: center; width: 100%; background-color: rgb(103,194,57); color: white; font-weight: bold; border-radius:10px; outline: 2px solid transparent; outline-offset: 2px; border: none; padding-top: 7px; padding-bottom: 6px; cursor: pointer; margin-top: 1.4rem;">
+                            Magrehistro at Mag-sign In
+                        </button>
+                    </div>
+                </form>
+                <div id="responseMessage" style="margin-top: 1rem;"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
