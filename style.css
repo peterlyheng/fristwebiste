@@ -1,11 +1,6 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url('slots.png');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
 }
 
 *{
@@ -22,12 +17,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background-image: url('Images/slots.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form{
      width:100%;
      height: 100%;
+     width: 100%;
+     height: 100%;
+     background-color: rgb(1, 4, 8);
+     opacity: 0.8;
+     inset: 0px;
 }
 
 .space{
@@ -35,7 +37,7 @@ body{
 }
 
 .title{
-    color: #32CD32; font-size: 2.5rem;line-height: 1; 	text-align: center;
+    color: rgb(0, 105, 53); font-size: 2.5rem;line-height: 1; 	text-align: center;
 }
 
 
@@ -43,7 +45,7 @@ body{
 
 @media (min-width: 768px) { 
     .title{
-    color: #32CD32; font-size: 4rem;line-height: 1; 	text-align: center;
+    color: rgb(0, 105, 53); font-size: 4rem;line-height: 1; 	text-align: center;
 }
  }
 
@@ -74,7 +76,7 @@ body{
 }
 .custom-select {
   width: 100%;
-  background-color:rgb(249, 248, 248);
+  background-color:rgb(1,4,8);;
   color: gray;
   border: 2px solid rgb(0,105,53);
   border-radius: 4px;
