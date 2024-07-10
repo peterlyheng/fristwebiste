@@ -60,6 +60,30 @@ const translations = {
         passwordLabel: "Senha",
         confirmPasswordLabel: "Confirmar senha",
         submitButton: "Registrar e Entrar"
+    },
+    es: {
+        signInText: "Iniciar sesión",
+        registerTitle: "Registrar",
+        phoneLabel: "Número de teléfono",
+        passwordLabel: "Contraseña",
+        confirmPasswordLabel: "Confirmar contraseña",
+        submitButton: "Registrar e Iniciar sesión"
+    },
+    bn: {
+        signInText: "সাইন ইন",
+        registerTitle: "নিবন্ধন করুন",
+        phoneLabel: "ফোন নম্বর",
+        passwordLabel: "পাসওয়ার্ড",
+        confirmPasswordLabel: "পাসওয়ার্ড নিশ্চিত করুন",
+        submitButton: "নিবন্ধন করুন এবং সাইন ইন করুন"
+    },
+    zh: {
+        signInText: "登录",
+        registerTitle: "注册",
+        phoneLabel: "电话号码",
+        passwordLabel: "密码",
+        confirmPasswordLabel: "确认密码",
+        submitButton: "注册并登录"
     }
 };
 
