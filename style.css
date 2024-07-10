@@ -1,7 +1,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url('pg.jpg');
+    background-image: url('Images/slots.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -35,7 +35,7 @@ body{
 }
 
 .title{
-    color: rgb(0,105,53); font-size: 2.5rem;line-height: 1; 	text-align: center;
+    color: rgb(239, 241, 230); font-size: 2.5rem;line-height: 1; 	text-align: center;
 }
 
 
@@ -43,7 +43,7 @@ body{
 
 @media (min-width: 768px) { 
     .title{
-    color: rgb(0,105,53); font-size: 4rem;line-height: 1; 	text-align: center;
+    color: rgb(244, 245, 245); font-size: 4rem;line-height: 1; 	text-align: center;
 }
  }
 
@@ -58,7 +58,7 @@ body{
       padding: 100px;
     }
   }
-  #responseMessage {
+#responseMessage {
     color: #fff;
     font-size: 16px;
 }
@@ -69,12 +69,12 @@ body{
 }
 
 .btn-success:hover {
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #32CD32;
+  border-color: #f7f8f8;
 }
 .custom-select {
   width: 100%;
-  background-color: #1c1c1c;
+  background-color:rgb(249, 248, 248);
   color: gray;
   border: 2px solid rgb(0,105,53);
   border-radius: 4px;
