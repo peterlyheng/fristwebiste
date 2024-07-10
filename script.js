@@ -6,15 +6,19 @@ document.getElementById('registerForm').addEventListener('submit', function(even
     const responseMessage = document.getElementById('responseMessage');
 
     responseMessage.textContent = '';
-
-    if (password !== confirmPassword) {
-        responseMessage.textContent = 'Passwords do not match!';
-        responseMessage.style.color = 'red';
+    if(phone!=""||password!=""||confirmPassword!=""){
+        if (password !== confirmPassword) {
+            responseMessage.textContent = 'Passwords do not match!';
+            responseMessage.style.color = 'red';
+            return;
+        }
+    
+        responseMessage.textContent = `Successfully registered with completes`;
+        responseMessage.style.color = 'white';
         return;
     }
-
-    responseMessage.textContent = `Successfully registered with completes`;
-    responseMessage.style.color = 'green';
+    responseMessage.textContent = 'Please Input Phone and Password';
+    responseMessage.style.color = 'red';
 });
 const translations = {
     en: {
