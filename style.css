@@ -55,7 +55,7 @@ body{
   .custom-padding {
     padding: 16px;
   }
-  @media (min-width: 768px) { /* md breakpoint */
+  @media (min-width: 768px) {
     .custom-padding {
       padding: 100px;
     }
